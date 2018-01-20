@@ -3,7 +3,8 @@
 - Download `DfuSe Utility` from http://www.st.com/en/development-tools/stsw-stm32080.html 
 Note that that ST refer to the utility by several different names, and that the use of English in the package is not perfect. This package contains the GUI utility as well as the required device driver.
 - Short the programming jumper on the back of the board 
-![Screenshot of `STMBL4.1_Low Voltage_Bootloader Jumper pads `](screenshots/STMBL4.1_LV_BL_J.png	)	
+
+![Screenshot of `STMBL4.1_Low Voltage_Bootloader Jumper pads `](screenshots/STMBL4.1_LV_BL_J.png)	
  
 
 - Power up the boards and connect the USB cable to the LV or HV board

@@ -6,7 +6,7 @@ Note that that ST refer to the utility by several different names, and that the 
 
 ![Screenshot of `STMBL4.1_Low Voltage_Bootloader Jumper pads`](screenshots/STMBL4.1_LV_BL_J.png)	
 
-- Short the programming jumper on the back of the high voltage board 
+- Short the programming jumper on the top of the high voltage board 
 
 ![Screenshot of `STMBL4.1_High Voltage_Bootloader Jumper pads`](screenshots/STMBL4.1_HV_BL_J.png)	
 

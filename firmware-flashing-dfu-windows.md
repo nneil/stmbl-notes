@@ -4,7 +4,9 @@ Flashing STMBL firmware via USB DFU using ST DfuSe under Windows
 note that that ST refer to it by serveal differeent names. This package contains the GUI utility as well as the required device driver.
 - Power up the boards and connect the USB cable to the LV or HV board
 - Start `DfuSe`
+
 ![Screenshot of `DfUse`](screenshots/DfuSe.png)
+
 - Under `Upload Action` click `Choose..` and choose the `f3dfu.bin` for the LV board or `hvf3.bin` for the HV board. Accept the strange warning that appears.
 - Click `Upload` to flash the firware to the board
 - Repeat the process for the other board

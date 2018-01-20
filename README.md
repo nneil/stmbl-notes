@@ -1,2 +1,2 @@
-# stmbl-notes
-Notes on the STMBL Boards
+# Notes on the STMBL Boards
+[Firmware Flashing](firmware-flashing.md)

@@ -8,6 +8,6 @@ Note that that ST refer to the utility by several different names, and that the 
 
 ![Screenshot of `DfUse`](screenshots/DfuSe.png)
 
-- Under `Upload Action` click `Choose..` and choose the `f3dfu.bin` for the LV board or `hvf3.bin` for the HV board. (Accept the strange warning that appears)
-- Click `Upload` to flash the firware to the board
+- Under `Upload Action` click `Choose..` and select `f3dfu.bin` for the LV board or `hvf3.bin` for the HV board. (Accept the strange warning that appears)
+- Click `Upload` to flash the firmware to the board
 - Repeat the process for the other board

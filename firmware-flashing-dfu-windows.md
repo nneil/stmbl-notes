@@ -7,6 +7,7 @@ This documents the initial flashing of an "empty" board.
 Note that that ST refer to the utility by several different names, and that the use of English in the package is not perfect. This package contains the GUI utility as well as the required device driver.
 ## Create DFU File
 Run `Dfu file manager`
+Increment Version
 ## Flashing
 - Short the programming jumper on the board you wish to program (as pictured below), then apply power to that board. Once powered up the jumper can be removed. Windows Device Manager should show "STM Device in DFU Mode" (0483:DF11)
 
@@ -21,9 +22,11 @@ Run `Dfu file manager`
 
 ![Screenshot of `DfUse`](screenshots/DfuSe.png)
 
-- Under `Upload Action` click `Choose..` and select `f3.bin` for the LV board or `f4.bin` for the HV board. (Accept the strange warning that appears)
-- Click `Upload` to flash the firmware to the board
+- Under `Upgrade or Verify Action` click `Choose..` and select `f4.dfu` for the LV board or `f3.dfu` for the HV board. Note the version displayed is what was entered earlier in `Dfu file manager`.
+- Click `Ugrade` to flash the firmware to the board
+- Observe the Erase Phase followed by the `Download Phase`
 - Repeat the process for the other board
 ## Servoterm
 Start servoterm from the Apps menu, found on the bookmarks bar of a new Chrome tab, the URL is chrome://apps/
+Command to check version is `about`
 

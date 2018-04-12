@@ -13,7 +13,7 @@ The downloaded file needs to be converted from BIN to DFU. For each BIN file you
 
 - Run `Dfu file manager` from the Windows Start Menu
 
-- Click OK to choose `GENERATE`
+- Click `OK` to choose `GENERATE`
 
 ![DFM](screenshots/DFM_Run.png)
 
@@ -25,19 +25,21 @@ The downloaded file needs to be converted from BIN to DFU. For each BIN file you
 
 ![DFM](screenshots/DFM_Selection.png)
 
-- Select the file
+- Select the BIN file
 
 ![DFM](screenshots/DFM_Selection_File.png)
 
-- Enter the correct address `0x0800000`
+- Enter the correct address `0x08000000`
 
 ![DFM](screenshots/DFM_Address.png)
 
 - Click `Add to list`
+- then click `OK`
 
 ![DFM](screenshots/DFM_Add_to_list.png)
 
 - Enter the version of the firmware as a 4 digit hex number
+- Click `Generate...`
 
 ![DFM](screenshots/DFM_Version.png)
 
@@ -45,12 +47,10 @@ The downloaded file needs to be converted from BIN to DFU. For each BIN file you
 
 ![DFM](screenshots/DFM_DFU_File.png)
 
-- Click `Generate...`
+- Click `Save`
 
 ![DFM](screenshots/DFM_Success.png)
 
-
-Increment Version
 ## Put board into DFU Mode
 - Short the programming jumper on the board you wish to program (as pictured below)
 - Apply power to that board.

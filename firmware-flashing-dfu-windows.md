@@ -114,4 +114,3 @@ The board must be in serial mode, the power must be cycled if it was previously 
 Start servoterm from the Chrome Apps menu, found on the bookmarks bar of a new tab, the URL is chrome://apps/
 The command to check the firmware version is `about`
 
-in servoterm "bootloader" for the f4 or "hv bootloader" for the f3 but the board into bootloader mode

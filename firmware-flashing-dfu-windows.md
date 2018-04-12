@@ -10,9 +10,44 @@ Note that ST refer to the utility by several different names, and that the use o
 - STM32 DFU device driver.
 ## Create DFU File from BIN file
 The downloaded file needs to be converted from BIN to DFU. For each BIN file you must:
+
 - Run `Dfu file manager` from the Windows Start Menu
 
+- Choose `GENERATE`
+
 ![DFM](screenshots/DFM_Run.png)
+
+- Choose `Multi Bin...`
+
+![DFM](screenshots/DFM_Generation.png)
+
+- Click `...` to open the file
+
+![DFM](screenshots/DFM_Selection.png)
+
+- Select the file
+
+![DFM](screenshots/DFM_Selection_File.png)
+
+- Enter the correct address `0x0800000`
+
+![DFM](screenshots/DFM_Address.png)
+
+- Click `Add to list`
+
+![DFM](screenshots/DFM_Add_to_list.png)
+
+- Enter the version of the firmware as a 4 digit hex number
+
+![DFM](screenshots/DFM_Version.png)
+
+- Type the name of the DFU file to be created (you can optionally add the version number as part of the name)
+
+![DFM](screenshots/DFM_DFU_File.png)
+
+- Click `Generate...`
+
+![DFM](screenshots/DFM_Success.png)
 
 
 Increment Version

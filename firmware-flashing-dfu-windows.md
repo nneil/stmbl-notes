@@ -1,6 +1,6 @@
 # STMBL firmware flashing via USB DFU using ST DfuSe under Windows
 INCOMPLETE DO NOT USE
-- Download `f3dfu.bin` and `hvf3.bin` from https://github.com/rene-dev/stmbl/releases
+- Download `xxx.bin` and `xxx.bin` from https://github.com/rene-dev/stmbl/releases
 - Download `DfuSe Utility` from http://www.st.com/en/development-tools/stsw-stm32080.html 
 Note that that ST refer to the utility by several different names, and that the use of English in the package is not perfect. This package contains the GUI utility as well as the required device driver.
 - Short the programming jumper on the board you wish to program (as pictured below), then apply power to that board. Once powered up the jumper can be removed. Windows Device Manager should show "STM Device in DFU Mode" (0483:DF11)
@@ -17,6 +17,6 @@ Note that that ST refer to the utility by several different names, and that the 
 
 ![Screenshot of `DfUse`](screenshots/DfuSe.png)
 
-- Under `Upload Action` click `Choose..` and select `f3dfu.bin` for the LV board or `hvf3.bin` for the HV board. (Accept the strange warning that appears)
+- Under `Upload Action` click `Choose..` and select `xxx.bin` for the LV board or `xxx.bin` for the HV board. (Accept the strange warning that appears)
 - Click `Upload` to flash the firmware to the board
 - Repeat the process for the other board

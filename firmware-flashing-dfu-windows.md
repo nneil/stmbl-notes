@@ -20,7 +20,7 @@ Shorting the programming jumper on the top of the high voltage board
 ![Screenshot of `STMBL4.1_High Voltage_Bootloader Jumper pads`](screenshots/STMBL4.1_HV_BL_J.png)	
 
 Device manager showing board in DFU mode
-![Device Manager](screenshots/Board in DFU Mode.png)
+![Device Manager](screenshots/Board_in_DFU_Mode.png)
 
 # Flashing
 

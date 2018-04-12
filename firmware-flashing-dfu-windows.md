@@ -94,7 +94,7 @@ Select `f4.dfu` for the LV board or `f3.dfu` for the HV board
 
 - Observe successful completion
 
-![Screenshot of `DfUse`](screenshots/Success.png)
+![Screenshot of `DfUse`](screenshots/DFUSE_Success.png)
 
 ## Servoterm
 Start servoterm from the Apps menu, found on the bookmarks bar of a new Chrome tab, the URL is chrome://apps/

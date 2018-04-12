@@ -11,6 +11,7 @@ Note that ST refer to the utility by several different names, and that the use o
 ## Create DFU File from BIN file
 The downloaded file needs to be converted from BIN to DFU. For each BIN file you must:
 - Run `Dfu file manager` from the Windows Start Menu
+
 ![DFM](screenshots/DFM_Run.png)
 
 

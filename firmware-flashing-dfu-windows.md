@@ -76,7 +76,7 @@ Select `f4.dfu` for the LV board or `f3.dfu` for the HV board
 
 ![Screenshot of `DfUse`](screenshots/DFUSE_Choose_File.png)
 
-- Note the version displayed is what was entered earlier in `Dfu file manager`.
+- Note the version displayed is what was entered earlier in `Dfu file manager`
 - Note `File correctly loaded.` message
 - Click `Upgrade` to flash the firmware to the board
 
@@ -90,7 +90,7 @@ Select `f4.dfu` for the LV board or `f3.dfu` for the HV board
 - Observe the `Erase Phase`, followed by the `Download Phase`
 
 ![Screenshot of `DfUse`](screenshots/DFUSE_Erasing.png)
-![Screenshot of `DfUse`](screenshots/Downloading.png)
+![Screenshot of `DfUse`](screenshots/DFUSE_Downloading.png)
 
 - Observe successful completion
 

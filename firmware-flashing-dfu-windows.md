@@ -65,9 +65,12 @@ Shorting the programming jumper on the top of the high voltage board
 Device manager showing board in DFU mode
 ![Device Manager](screenshots/Board_in_DFU_Mode.png)
 
-Servoterm
-in servoterm "bootloader" for the f4 or "hv bootloader" for the f3 but the board into bootloader mode
+- Servoterm
 
+In servoterm the command to put the boards in to  bootloader mode are 
+
+"bootloader" for the f4 (LV Board)  
+"hv bootloader" for the f3 (HV Board) 
 
 
 # Flashing

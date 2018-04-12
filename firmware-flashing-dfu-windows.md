@@ -1,9 +1,13 @@
 # STMBL firmware flashing via USB DFU using ST DfuSe under Windows
 INCOMPLETE DO NOT USE - DRAFT - MAY BE INCORRECT
 This documents the initial flashing of an "empty" board.
+## Download
 - Download `f4.bin` (for the LV board) and `f3.bin` (for the HV board) from https://github.com/rene-dev/stmbl/releases
 - Download `DfuSe Utility` from http://www.st.com/en/development-tools/stsw-stm32080.html 
 Note that that ST refer to the utility by several different names, and that the use of English in the package is not perfect. This package contains the GUI utility as well as the required device driver.
+## Create DFU File
+Run `Dfu file manager`
+## Flashing
 - Short the programming jumper on the board you wish to program (as pictured below), then apply power to that board. Once powered up the jumper can be removed. Windows Device Manager should show "STM Device in DFU Mode" (0483:DF11)
 
 - Short the programming jumper on the back of the low voltage board 

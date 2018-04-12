@@ -13,14 +13,14 @@ Increment Version
 - Apply power to that board.
 - Once powered up the jumper can be removed. Windows Device Manager should show "STM Device in DFU Mode" (0483:DF11)
 
-- Short the programming jumper on the back of the low voltage board 
+Shorting the programming jumper on the back of the low voltage board 
 ![Screenshot of `STMBL4.1_Low Voltage_Bootloader Jumper pads`](screenshots/STMBL4.1_LV_BL_J.png)	
 
-- Short the programming jumper on the top of the high voltage board 
+Shorting the programming jumper on the top of the high voltage board 
 ![Screenshot of `STMBL4.1_High Voltage_Bootloader Jumper pads`](screenshots/STMBL4.1_HV_BL_J.png)	
 
 Device manager showing board in DFU mode
-![](screenshots/Board in DFU Mode.png)
+![Device Manager](screenshots/Board in DFU Mode.png)
 
 # Flashing
 

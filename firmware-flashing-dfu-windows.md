@@ -1,15 +1,17 @@
-# STMBL firmware flashing via USB DFU using ST DfuSe under Windows
+# STMBL firmware flashing under Windows via USB DFU using ST DfuSe
 INCOMPLETE DO NOT USE - DRAFT - MAY BE INCORRECT
 This documents the initial flashing of an "empty" board.
 ## Download
 - Download `f4.bin` (for the LV board) and `f3.bin` (for the HV board) from https://github.com/rene-dev/stmbl/releases
 - Download `DfuSe Utility` from http://www.st.com/en/development-tools/stsw-stm32080.html 
-Note that that ST refer to the utility by several different names, and that the use of English in the package is not perfect. This package contains the GUI utility as well as the required device driver.
+Note that that ST refer to the utility by several different names, and that the use of English in the package is not perfect. This package contains the GUI utility (`DfuSeDemo`), a utilty to create DFU files (`Dfu file manager`) as well as the required device driver.
 ## Create DFU File
 Run `Dfu file manager`
 Increment Version
-## Flashing
-- Short the programming jumper on the board you wish to program (as pictured below), then apply power to that board. Once powered up the jumper can be removed. Windows Device Manager should show "STM Device in DFU Mode" (0483:DF11)
+## Put board into DFU Mode
+- Short the programming jumper on the board you wish to program (as pictured below)
+- Apply power to that board.
+- Once powered up the jumper can be removed. Windows Device Manager should show "STM Device in DFU Mode" (0483:DF11)
 
 - Short the programming jumper on the back of the low voltage board 
 ![Screenshot of `STMBL4.1_Low Voltage_Bootloader Jumper pads`](screenshots/STMBL4.1_LV_BL_J.png)	
@@ -17,7 +19,11 @@ Increment Version
 - Short the programming jumper on the top of the high voltage board 
 ![Screenshot of `STMBL4.1_High Voltage_Bootloader Jumper pads`](screenshots/STMBL4.1_HV_BL_J.png)	
 
-- Power up the boards and connect the USB cable to the LV or HV board
+Device manager showing board in DFU mode
+![](screenshots/Board in DFU Mode.png)
+
+# Flashing
+
 - Start `DfuSeDemo`
 
 ![Screenshot of `DfUse`](screenshots/DfuSe.png)

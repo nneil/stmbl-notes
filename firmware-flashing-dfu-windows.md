@@ -98,6 +98,10 @@ Select `f4.dfu` for the LV board or `f3.dfu` for the HV board
 ![Screenshot of `DfUse`](screenshots/DFUSE_Success.png)
 
 ## Servoterm
-Start servoterm from the Apps menu, found on the bookmarks bar of a new Chrome tab, the URL is chrome://apps/
-Command to check version is `about`
+Servoterm is a specialised terminal emulator that can be used to control the STMBL. It's a Chrome Extension.
+The board must be in serial mode, the power must be cycled if it was previously in DFU mode for flashing.
 
+![Screenshot of `DfUse`](screenshots/Board_in_Serial_Mode.png)
+
+Start servoterm from the Chrome Apps menu, found on the bookmarks bar of a new tab, the URL is chrome://apps/
+The command to check the firmware version is `about`

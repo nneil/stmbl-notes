@@ -4,9 +4,16 @@ This documents the initial flashing of an "empty" board.
 ## Download
 - Download `f4.bin` (for the LV board) and `f3.bin` (for the HV board) from https://github.com/rene-dev/stmbl/releases
 - Download `DfuSe Utility` from http://www.st.com/en/development-tools/stsw-stm32080.html 
-Note that that ST refer to the utility by several different names, and that the use of English in the package is not perfect. This package contains the GUI utility (`DfuSeDemo`), a utilty to create DFU files (`Dfu file manager`) as well as the required device driver.
-## Create DFU File
-Run `Dfu file manager`
+Note that ST refer to the utility by several different names, and that the use of English in the package is not perfect. This package contains:
+- GUI utility flashing (`DfuSeDemo`)
+- Utility to create DFU files (`Dfu file manager`)
+- STM32 DFU device driver.
+## Create DFU File from BIN file
+The downloaded file needs to be converted from BIN to DFU. For each BIN file you must:
+- Run `Dfu file manager` from the Windows Start Menu
+![DFM](screenshots/DFM_Run.png)
+
+
 Increment Version
 ## Put board into DFU Mode
 - Short the programming jumper on the board you wish to program (as pictured below)

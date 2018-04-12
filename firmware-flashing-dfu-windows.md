@@ -17,10 +17,13 @@ Run `Dfu file manager`
 ![Screenshot of `STMBL4.1_High Voltage_Bootloader Jumper pads`](screenshots/STMBL4.1_HV_BL_J.png)	
 
 - Power up the boards and connect the USB cable to the LV or HV board
-- Start `DfuSe`
+- Start `DfuSeDemo`
 
 ![Screenshot of `DfUse`](screenshots/DfuSe.png)
 
 - Under `Upload Action` click `Choose..` and select `f3.bin` for the LV board or `f4.bin` for the HV board. (Accept the strange warning that appears)
 - Click `Upload` to flash the firmware to the board
 - Repeat the process for the other board
+## Servoterm
+Start servoterm from the Apps menu, found on the bookmarks bar of a new Chrome tab, the URL is chrome://apps/
+

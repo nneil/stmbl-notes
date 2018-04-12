@@ -13,13 +13,13 @@ The downloaded file needs to be converted from BIN to DFU. For each BIN file you
 
 - Run `Dfu file manager` from the Windows Start Menu
 
-- Choose `GENERATE`
+- Click OK to choose `GENERATE`
 
 ![DFM](screenshots/DFM_Run.png)
 
 - Choose `Multi Bin...`
 
-![DFM](screenshots/DFM_Generation.png)
+![DFM](screenshots/DFM_Multi_Bin.png)
 
 - Click `...` to open the file
 

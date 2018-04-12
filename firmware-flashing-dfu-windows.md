@@ -78,6 +78,7 @@ Select `f4.dfu` for the LV board or `f3.dfu` for the HV board
 
 - Note the version displayed is what was entered earlier in `Dfu file manager`
 - Note `File correctly loaded.` message
+- Tick `Verify after download`
 - Click `Upgrade` to flash the firmware to the board
 
 ![Screenshot of `DfUse`](screenshots/DFUSE_Upgrade.png)

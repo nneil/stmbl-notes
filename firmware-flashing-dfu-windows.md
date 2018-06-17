@@ -109,6 +109,8 @@ Select `f4.dfu` for the LV board or `f3.dfu` for the HV board
 Servoterm is a specialised terminal emulator that can be used to control the STMBL. It's a Chrome Extension.
 The board must be in serial mode, the power must be cycled if it was previously in DFU mode for flashing.
 
+The STM32 DfuSe USB device driver must be loaded http://www.st.com/en/development-tools/stsw-stm32080.html 
+
 ![Screenshot of `DfUse`](screenshots/Board_in_Serial_Mode_2.png)
 
 Start servoterm from the Chrome Apps menu, found on the bookmarks bar of a new tab, the URL is chrome://apps/

@@ -5,9 +5,9 @@ This documents the initial flashing of an "empty" board.
 - Download `f4.bin` (for the LV board) and `f3.bin` (for the HV board) from https://github.com/rene-dev/stmbl/releases
 - Download `DfuSe Utility` from http://www.st.com/en/development-tools/stsw-stm32080.html 
 Note that ST refer to the utility by several different names, and that the use of English in the package is not perfect. This package contains:
-- GUI utility flashing (`DfuSeDemo`)
-- Utility to create DFU files (`Dfu file manager`)
-- STM32 DFU device driver.
+  - GUI utility flashing (`DfuSeDemo`)
+  - Utility to create DFU files (`Dfu file manager`)
+  - STM32 DFU device driver.
 ## Create DFU File from BIN file
 The downloaded file needs to be converted from BIN to DFU. For each BIN file you must:
 
@@ -108,6 +108,8 @@ Select `f4.dfu` for the LV board or `f3.dfu` for the HV board
 ## Servoterm
 Servoterm is a specialised terminal emulator that can be used to control the STMBL. It's a Chrome Extension.
 The board must be in serial mode, the power must be cycled if it was previously in DFU mode for flashing.
+
+**Connect using a USB cable, not a "Smart Serial" cable.**
 
 The STM32 DfuSe USB device driver must be loaded http://www.st.com/en/development-tools/stsw-stm32080.html 
 

@@ -1,0 +1,9 @@
+```
+######## software info ########
+STMBL v0.9.9 v0.9.8-1033-g8879188
+Branch master
+Compiled 2017-11-17 18:30:38 by rene on test.dhcp.lan.london.hackspace.o2017-11-17
+GCC 5.4.1 20160609 (release) [ARM/embedded-5-branch revision 237715]
+newlib 2.4.0
+size: 149308 crc:358f3324
+```

@@ -11,7 +11,8 @@ Replugging the USB connector several times is necessary before Servoterm is able
 
 # Commands
 
-```hv0.pos = sim0.vel
+```
+hv0.pos = sim0.vel
 ```
 ```
 hv0.d_cmd = 0.5

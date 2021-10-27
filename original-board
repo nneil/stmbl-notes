@@ -7,3 +7,20 @@ GCC 5.4.1 20160609 (release) [ARM/embedded-5-branch revision 237715]
 newlib 2.4.0
 size: 149308 crc:358f3324
 ```
+
+
+```
+STMBL v0.9.18 v0.9.18
+Branch HEAD
+Compiled 2018-12-03 18:11:57 by travis on travis-job-d0b9eea1-56d1-493e-982018-12-03
+GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+newlib 3.0.0
+CMSIS 4.30
+StdPeriph 1.6.0
+size: 276184 crc:949e4797
+######## Bootloader info ########
+STMBL-Bootloader v0.9.18 v0.9.18
+######## HV info ########
+STMBL-hv-f303 v0.9.18 v0.9.18
+hv start:0x801024c ,size:0x177b0 ,end0x80279fc
+```

@@ -6,6 +6,9 @@
 Launch from <chrome://apps/>
 
 # STMBL Virtual ComPort
+
+<https://www.st.com/en/development-tools/stsw-stm32102.html>
+
 0483:5740
 
 THis VID:PID is listed as belonging to STM32F407

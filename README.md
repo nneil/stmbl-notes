@@ -9,6 +9,8 @@ Launch from <chrome://apps/>
 
 <https://www.st.com/en/development-tools/stsw-stm32102.html>
 
+Temporary email for sign-up https://temp-mail.org/
+
 0483:5740
 
 THis VID:PID is listed as belonging to STM32F407

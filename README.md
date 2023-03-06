@@ -1,6 +1,10 @@
 # Notes on the STMBL Boards
 - [Firmware Flashing](firmware-flashing.md)
 
+# Servoterm
+
+Launch from <chrome://apps/>
+
 # STMBL Virtual ComPort
 0483:5740
 
